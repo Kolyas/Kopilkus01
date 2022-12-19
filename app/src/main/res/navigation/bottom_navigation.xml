@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/home">
+
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.kopilkus01.view.Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/summ"
+        android:name="com.example.kopilkus01.view.Summ"
+        android:label="Summ"
+        tools:layout="@layout/fragment_summ" />
+    <fragment
+        android:id="@+id/zaim"
+        android:name="com.example.kopilkus01.view.Zaim"
+        android:label="Zaim"
+        tools:layout="@layout/fragment_zaim" />
+</navigation>
